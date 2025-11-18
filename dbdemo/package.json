@@ -14,7 +14,10 @@
     "test": "NODE_OPTIONS=--experimental-vm-modules jest --detectOpenHandles"
   },
   "devDependencies": {
+    "chai": "^6.2.1",
+    "chai-http": "^5.1.2",
     "jest": "^30.2.0",
+    "mocha": "^11.7.5",
     "supertest": "^7.1.4"
   },
   "dependencies": {
