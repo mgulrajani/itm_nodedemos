@@ -1,0 +1,148 @@
+
+
+[{
+    "txnId": "T1001",
+    "accountId": "A5001",
+    "type": "Credit",
+    "amount": 12000,
+    "date": "2025-09-20T10:15:00Z",
+    "status": "SUCCESS",
+    "channel": "Online",
+    "remarks": "Salary Credit",
+    "tags": ["salary", "bonus", "refund"],
+    "address": {
+      "city": "Mumbai",
+      "country": "India"
+    }
+  },
+  {
+    "txnId": "T1002",
+    "accountId": "A5002",
+    "type": "Debit",
+    "amount": 2500,
+    "date": "2025-09-21T14:30:00Z",
+    "status": "SUCCESS",
+    "channel": "ATM",
+    "tags": ["travel", "food"],
+    "address": {
+      "city": "New York",
+      "country": "USA"
+    }
+  },
+  {
+    "txnId": "T1003",
+    "accountId": "A5001",
+    "type": "Debit",
+    "amount": 800,
+    "date": "2025-09-22T08:45:00Z",
+    "status": "FAILED",
+    "channel": "POS",
+    "remarks": "Card declined",
+    "tags": ["shopping", "tax", "entertainment"],
+    "address": {
+      "city": "Paris",
+      "country": "France"
+    }
+  },
+  {
+    "txnId": "T1004",
+    "accountId": "A5003",
+    "type": "Credit",
+    "amount": 5000,
+    "date": "2025-09-23T12:20:00Z",
+    "status": "SUCCESS",
+    "channel": "Bank Transfer",
+    "tags": ["gift", "refund"],
+    "address": {
+      "city": "Berlin",
+      "country": "Germany"
+    }
+  },
+  {
+    "txnId": "T1005",
+    "accountId": "A5002",
+    "type": "Debit",
+    "amount": 1200,
+    "date": "2025-09-24T18:00:00Z",
+    "status": "SUCCESS",
+    "channel": "UPI",
+    "remarks": "Grocery Payment",
+    "tags": ["food", "shopping"],
+    "address": {
+      "city": "Mumbai",
+      "country": "India"
+    }
+  },
+  {
+    "txnId": "T1006",
+    "accountId": "A5004",
+    "type": "Credit",
+    "amount": 700,
+    "date": "2025-09-25T09:10:00Z",
+    "status": "PENDING",
+    "channel": "Cheque Deposit",
+    "tags": ["bonus", "gift"],
+    "address": {
+      "city": "Paris",
+      "country": "France"
+    }
+  },
+  {
+    "txnId": "T1007",
+    "accountId": "A5003",
+    "type": "Debit",
+    "amount": 3200,
+    "date": "2025-09-26T21:45:00Z",
+    "status": "SUCCESS",
+    "channel": "Online",
+    "remarks": "Travel Booking",
+    "tags": ["travel", "entertainment", "shopping"],
+    "address": {
+      "city": "Berlin",
+      "country": "Germany"
+    }
+  },
+  {
+    "txnId": "T1008",
+    "accountId": "A5001",
+    "type": "Credit",
+    "amount": 1500,
+    "date": "2025-09-27T11:05:00Z",
+    "status": "SUCCESS",
+    "channel": "UPI",
+    "tags": ["salary", "refund"],
+    "address": {
+      "city": "New York",
+      "country": "USA"
+    }
+  },
+  {
+    "txnId": "T1009",
+    "accountId": "A5002",
+    "type": "Debit",
+    "amount": 1800,
+    "date": "2025-09-28T13:20:00Z",
+    "status": "SUCCESS",
+    "channel": "POS",
+    "remarks": "Restaurant",
+    "tags": ["food", "entertainment", "shopping"],
+    "address": {
+      "city": "Paris",
+      "country": "France"
+    }
+  },
+  {
+    "txnId": "T1010",
+    "accountId": "A5004",
+    "type": "Credit",
+    "amount": 2200,
+    "date": "2025-09-29T16:40:00Z",
+    "status": "SUCCESS",
+    "channel": "Bank Transfer",
+    "tags": ["refund", "gift", "bonus"],
+    "address": {
+      "city": "Mumbai",
+      "country": "India"
+    }
+  }
+]

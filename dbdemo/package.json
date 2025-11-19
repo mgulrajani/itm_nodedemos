@@ -11,8 +11,8 @@
   "license": "ISC",
   "type": "module",
   "scripts": {
-    "test": "NODE_OPTIONS=--experimental-vm-modules jest --detectOpenHandles"
-  },
+    "test": "mocha \"tests/**/*.test.js\" --timeout 10000"
+    },
   "devDependencies": {
     "chai": "^6.2.1",
     "chai-http": "^5.1.2",

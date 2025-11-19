@@ -22,7 +22,7 @@ describe("Auth Routes", () => {
 
   it("should login and return a token", async () => {
     const res = await request(app)
-      .get("/api/auth/login")
+      .post("/api/auth/login")
       .send({ username: "testuser21", password: "password123" });
 
     expect(res.statusCode).toBe(200);
@@ -54,7 +54,7 @@ after(async () => {
 describe("Auth Routes", () => {
   it("should login and return a token", async () => {
     const res = await request(app)
-      .get("/api/auth/login")
+      .post("/api/auth/login")
       .send({ username: "mochauser", password: "password123" });
 
     expect(res.status).to.equal(200);
