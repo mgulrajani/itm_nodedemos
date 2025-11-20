@@ -12,7 +12,7 @@
   "type": "module",
   "scripts": {
     "test": "mocha \"tests/**/*.test.js\" --timeout 10000"
-    },
+  },
   "devDependencies": {
     "chai": "^6.2.1",
     "chai-http": "^5.1.2",
@@ -21,6 +21,8 @@
     "supertest": "^7.1.4"
   },
   "dependencies": {
-    "dotenv": "^17.2.3"
+    "connect-mongo": "^5.1.0",
+    "dotenv": "^17.2.3",
+    "express-session": "^1.18.2"
   }
 }
